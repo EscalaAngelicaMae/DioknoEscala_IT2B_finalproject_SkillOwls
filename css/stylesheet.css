@@ -1,0 +1,418 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', 'Helvetica',sans-serif;
+}
+body{
+    height: auto;
+    width: 100%; 
+    background-image: url(background.jpg);
+}    
+.header{
+    display: flex;
+    max-width: 600px;
+    width: 100%;
+    max-height: 40px; 
+    height: 100%;
+    align-items: center;
+    vertical-align: middle;
+    background: black;
+    position: sticky;
+    z-index: 1000;
+}
+.header img{
+    max-width: 30px;
+    width: 100%;
+    height: auto;
+    margin-left: 20px;
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+.header h3{
+    padding-left: 15px;
+    letter-spacing: 1px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    font-size: 13px;
+}
+.body{
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    align-items: center;
+    vertical-align: middle;
+}
+.menu{
+    display: none;
+}
+.navbar{
+    float: right;
+    position: sticky;
+    height: 40px;
+    top: 5px;
+    padding-top: 20px;
+    margin-bottom: 0;
+    overflow: hidden;
+    background-color: black;
+}
+.navbar a{
+    position: relative;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 10px 15px; 
+    text-decoration: none;
+    margin: 0;
+}
+.navbar a:hover{
+    background-color: red;
+    text-decoration: none;
+    color: white;
+}
+span{
+    float: right;
+    color: white;
+    padding-top: 5px;
+    position: relative;
+    margin-right: 0 10px;
+}
+.active{
+    background-color: red;
+}
+.banner{
+    height: 260px;
+    width: 100%;
+    padding: 10px;
+    background-color: aliceblue;
+}
+.banner img{
+    float: left;
+    max-width: 50%;
+    max-height: 220px;
+    height: 100%;
+    width: 100%;
+    margin: 10px;
+    position: relative;
+}
+.text{
+    padding: 10px;
+    max-width: inherit;
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+    vertical-align: middle;
+}
+.text h4{
+    font-weight: bold;
+    font-size: 15px auto; 
+}
+.text p{
+    margin-bottom: 10px;
+    font-size: 12px ;
+}
+.homehead{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    font-weight: bold ;
+    background: red;
+    color: aliceblue;
+    padding-top: 10px;
+    margin: auto;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+.main{
+    clear: both;
+    height: auto;
+    width: 100%;
+    padding: 10px;
+    background-color: aliceblue;
+}
+.latestnews{
+    height: 120px;
+    width: 100%;
+    background-color: aliceblue;
+    border-bottom: 1px dotted black;
+    vertical-align: middle;
+}
+.newslist{
+    max-width: 50%;
+    height: 160px;
+    width: 100%;
+    float: left;
+    background-color: aliceblue;
+    border-bottom: 1px dotted black;
+    display: inline-block;
+    vertical-align: middle;
+}
+.news{
+    max-width: 116px;
+    width: 100%;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    float: left;
+    padding: 0;
+}
+.news img{
+    width: 100% ;
+    height: 100%;
+    padding: 5px; 
+}
+.list{
+    display: contents;
+    margin: 5px;
+    clear: inherit;
+    float: left;
+    max-width: 50%;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.list h4{
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+}
+.list h5{
+    font-size: 12px;
+    color: black;
+}
+.list p{
+    text-align: left;
+    font-size: 10px;
+    color: darkgray;
+}
+.seemore{
+    text-align: center;
+    font-size: 12px;
+}
+.herolist, .tabs, .hero, .role, .specs, tr{
+    border: 2px solid white;
+    text-align: center;
+    background-color: dimgray;
+    color: white;
+}
+td:hover, tr:hover{
+    background-color: aliceblue;
+    color: black;
+}
+.herolist, .tabs {
+    max-width: 90%;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.herolist a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.herolist a:hover{
+    text-decoration: none;
+    color: black;
+}
+th, td{
+    height: 90px;
+    width: 35%;
+    text-align: center;
+    vertical-align: middle;
+}
+.herolist img{
+    margin-left: auto;
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+}
+iframe{
+    display: inline-block;
+    width: 90%;
+    height: auto;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+.miyahead{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    font-weight: bold ;
+    background: red;
+    color: aliceblue;
+    padding-top: 10px;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+.miyagif{
+    max-width: 480px;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+.miyagif img{
+    width: 100%;
+    max-height: 300px;
+    height: 100%;
+}
+.miyaban{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-bottom: 10px;
+}
+.miyaban h4{
+    color: deepskyblue;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold; 
+    font-size: 70px;
+    text-shadow:  -5px -5px 0 white, 5px -5px 0 white, -5px 5px 0 white, 5px 5px 0 white;
+}
+.footer{
+    width: 100%;
+    max-height: 110px;
+    height: 100%;
+    background-color: black;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    top: 0px;
+    bottom: 5px;
+    margin: 0;
+}
+.footer a img{
+    border-radius: 50%;
+    background-color: aliceblue;
+    width: 15px;
+    height: 15px;
+    padding: 0px;
+    margin: 5px 5px 10px 5px;
+}
+.footer p{
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+}
+.footer h4{
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+
+
+
+
+@media only screen and (max-width: 700px) {
+  /* For screens: width between 400px and 700px */  
+
+    .header img{
+        max-width: 25px;
+        margin-left: 20px;
+    }
+    .header h3{
+        padding-left: 15px;
+        margin-right: 15px;
+    }
+    .navbar{
+        display: none;
+    }
+    .searchbox{
+        float: right;
+        position: sticky;
+    }
+    .body{
+        margin: 0;
+    }
+    .banner{
+        max-height: 500px;
+        height: 100%;
+        width: 100%;
+    }
+    .banner img{
+        max-width: 300px;
+        margin: 0 25% 5px 25%;
+        height: auto;
+    }
+    .text{
+        width: 100%;
+        text-align: justify;
+        word-spacing: 1px;
+        padding: 0 10% 0 10%;
+        font-size: 17px;
+    }
+    .text h4{
+        font-size: 20px; 
+    }
+    .text p{
+        display: none;
+    }
+    .menu{
+        min-width: 400px;
+        display: flex;
+        background-color: black;
+        height: 40px;
+        width: 100%;
+        padding: 0px;
+        color: white;
+    }
+    .menu a{
+        float: left;
+        font-size: 12px;
+        color: white;
+        text-align: center;
+        padding: 9px 5%;
+        margin: auto;
+        text-decoration: none;
+    }
+    .menu a:hover{
+        background-color: red;
+        text-decoration: none;
+        color: white;
+    }
+    .homehead{
+        padding: 10px;
+    }
+    .latestnews{
+        height: 100px;
+    }
+    .newslist{
+        height: 90px;
+        max-width: 580px;
+        width: 100%;
+        display: block;
+    }
+    .news{
+        max-width: 90px;
+        width: 100%;
+        height: auto;
+        margin-top: 1%;
+        padding-right: 10px;
+        display: block;
+    }
+    .list{
+        position: relative;
+        max-width: 95%;
+        width: inherit;
+    }
+    .list h4{
+        font-size: 12px;
+        font-weight: bold;
+        display: block;
+    }    
+    .list p{
+        font-size: 12px;
+    }
